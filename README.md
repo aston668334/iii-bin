@@ -10,7 +10,7 @@ This is **not** the official distribution; use the upstream repository for suppo
 
 ## Layout
 
-The binaries live in [`bin/`](bin/) (currently **v0.24.6**, see `bin/VERSION`), unmodified and still packed as the
+The binaries live in [`bin/`](bin/) (currently **v0.22.1**, see `bin/VERSION`), unmodified and still packed as the
 upstream `.tar.gz`. Older versions are available from git history and the Releases page.
 
 ```bash
