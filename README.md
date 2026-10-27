@@ -12,7 +12,8 @@ This is **not** the official distribution; use the upstream repository for suppo
 
 The binaries live in [`bin/`](bin/) (currently **v0.22.1**, see `bin/VERSION`), unmodified and still packed as the
 upstream `.tar.gz` (Linux) or `.zip` (Windows). Older versions are available from git history and the Releases page.
-v0.11.2 (Linux and Windows) is kept in [`bin/v0.11.2/`](bin/v0.11.2/) with its own `SHA256SUMS`.
+v0.11.2 and v0.25.0 (Linux and Windows) are kept in [`bin/v0.11.2/`](bin/v0.11.2/) and [`bin/v0.25.0/`](bin/v0.25.0/), each with its own `SHA256SUMS`.
+v0.25.0 has no `iii-console` build upstream.
 
 ```bash
 # verify, then unpack the build you need
