@@ -24,4 +24,14 @@ tar -xzf iii-x86_64-unknown-linux-gnu.tar.gz
 Windows builds (`*-pc-windows-msvc.zip`) exist for `x86_64`, `aarch64` and `i686` (`iii` and `iii-console` only; upstream ships no Windows worker/init/libkrunfw).
 On PowerShell: `Get-FileHash iii-x86_64-pc-windows-msvc.zip` then `Expand-Archive iii-x86_64-pc-windows-msvc.zip`.
 
+## Workers
+
+Unmodified worker builds mirrored from [iii-hq/workers](https://github.com/iii-hq/workers/releases) (Apache-2.0, see
+[`workers/LICENSE-Apache-2.0.txt`](workers/LICENSE-Apache-2.0.txt)), Linux and Windows only, each folder with its own `SHA256SUMS`:
+
+- `state` v0.22.22 in [`workers/state/v0.22.22/`](workers/state/v0.22.22/) (release `state-v0.22.22`)
+- `http` v0.22.8 in [`workers/http/v0.22.8/`](workers/http/v0.22.8/) (release `http-v0.22.8`)
+
+Both come from upstream build `a8ed4889f54cb34cb9ffdb6e44190484d90ba950`. Upstream ships no `aarch64-musl` or `i686` worker builds.
+
 Pick `*-gnu` for glibc distros, `*-musl` for static/Alpine, and `aarch64` / `armv7` for ARM.
